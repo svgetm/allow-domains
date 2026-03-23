@@ -7,21 +7,25 @@
 Каждый сервис расположен в отдельной директории:
 
 ```
+adobe/
+  domains.lst
+  subnets.lst
+
 common/
   domains.lst
-  networks.lst
+  subnets.lst
 
 kinopub/
   domains.lst
-  networks.lst
+  subnets.lst
 
 telegram/
   domains.lst
-  networks.lst
+  subnets.lst
 ```
 
 * `domains.lst` — список доменов сервиса
-* `networks.lst` — список IP-подсетей (CIDR), относящихся к сервису
+* `subnets.lst` — список IP-подсетей (CIDR), относящихся к сервису
 
 ---
 
