@@ -7,21 +7,13 @@
 Каждый сервис расположен в отдельной директории:
 
 ```
-common/
+service/
   domains.lst
-  networks.lst
-
-kinopub/
-  domains.lst
-  networks.lst
-
-telegram/
-  domains.lst
-  networks.lst
+  subnets.lst
 ```
 
 * `domains.lst` — список доменов сервиса
-* `networks.lst` — список IP-подсетей (CIDR), относящихся к сервису
+* `subnets.lst` — список IP-подсетей (CIDR), относящихся к сервису
 
 ---
 
